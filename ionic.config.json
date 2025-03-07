@@ -1,0 +1,7 @@
+{
+  "name": "IonicSkeleton",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
