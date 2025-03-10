@@ -1,0 +1,63 @@
+.consoleStyle {
+    background-color: black;
+    color: red;
+}
+
+.consoleStyleAlt {
+    background-color: black;
+    color: green;
+}
+
+.centerButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.squareButton {
+    margin: 0.5rem;
+    width: 6rem;
+    height: 6rem;
+    padding: 0.5rem;
+    align-content: center;
+    border: solid white 0.3rem;
+    border-radius: 20%;
+}
+
+.blackbg {
+    background-color: black;
+}
+
+.dangerbg {
+    background-color: rgb(163, 0, 0);
+}
+
+.warningbg {
+    background-color: rgb(146, 144, 0);
+}
+
+.disabledbg {
+    background-color: rgb(71, 71, 71);
+    opacity: 0.6;
+}
+
+.squareButton:hover {
+    background-color: rgb(71, 71, 71);
+}
+
+.squareButton img {
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin: auto;
+    filter: invert(97%) sepia(30%) saturate(0%) hue-rotate(356deg) brightness(102%) contrast(102%);
+}
+
+.squareButton p {
+    height: 40%;
+    margin: 0px;
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+    font-family: Tahoma;
+    text-transform: uppercase;
+}
