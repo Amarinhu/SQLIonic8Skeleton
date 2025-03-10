@@ -2,12 +2,7 @@ import { IonLoading } from "@ionic/react"
 import { useEffect, useState } from "react"
 import TesteController from "../Controller/TesteController"
 
-interface CriaBancoProps {
-    mensagem: string,
-    trigger: string
-}
-
-const CriaBanco: React.FC<CriaBancoProps> = ({ mensagem, trigger }) => {
+const CriaBanco: React.FC = () => {
 
     useEffect(() => {
         const criarBanco = async () => {

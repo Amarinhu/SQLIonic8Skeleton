@@ -122,7 +122,6 @@ const CRUD: React.FC = () => {
             defMosSqlInput(true)
         }
     }
-    const [msgBanco, defMsgBanco] = useState('Criando Banco de Dados...')
 
 
     return (
@@ -135,7 +134,7 @@ const CRUD: React.FC = () => {
                     Acesso Banco: {iniciadoDB.toString()}
                 </IonTitle>
 
-                <CriaBanco trigger={'inicia-cria-banco'} mensagem={msgBanco} />
+                <CriaBanco />
 
                 <div className="centerButtons">
                     <button onClick={recPagina} className="squareButton blackbg">
